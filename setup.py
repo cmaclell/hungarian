@@ -8,14 +8,14 @@ if __name__ == "__main__":
     from numpy.distutils.core import setup
     setup(configuration=configuration,
           name='hungarian',
-          version='0.2.3',
-          url='http://github.com/hrldcpr/hungarian',
+          version='0.3.0',
+          url='https://github.com/cmaclell/hungarian',
           description='algorithm for the linear assignment problem',
           long_description=
 """This module is just a simple wrapper for a C++ implementation of Knuth's
 Hungarian algorithm, a.k.a. Munkres' algorithm, for the linear assignment
 problem.""",
           author='Dominic Battre',
-          maintainer='Harold Cooper',
-          maintainer_email='hrldcpr@gmail.com'
+          maintainer='Chris MacLellan',
+          maintainer_email='cmaclell@cs.cmu.edu'
           )
